@@ -1,0 +1,41 @@
+body,h1,h2,h3,h4,h5,h6,ul{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font:18px/1.5em 微软雅黑;
+}
+div.nav ul{
+    list-style: none;
+    display: flex;
+}
+div.nav ul li{
+    flex:1;
+    text-align: center;
+}
+div.nav ul a{
+    text-decoration: none;
+   
+    background: #09f;
+    color: #fff;
+    display: block;
+    padding:5px;
+}
+div.nav ul a:hover{
+    background:#090;
+}
+
+div.content img{
+    width: 100%;
+    vertical-align: top;
+}
+div.footer{
+    background: #09f;
+    color: #fff;
+    position: fixed;
+    bottom:0px;
+    left:0px;
+    width: 100%;
+    text-align: center;
+}
+
